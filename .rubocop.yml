@@ -1,0 +1,26 @@
+AllCops:
+  TargetRubyVersion: 2.5
+
+Layout/AlignHash:
+  EnforcedColonStyle: table
+
+Lint/HandleExceptions:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/ClassLength:
+  Max: 500
+
+Metrics/LineLength:
+  Max: 100
+
+Metrics/MethodLength:
+  Max: 30
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
