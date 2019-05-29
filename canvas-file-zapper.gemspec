@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'canvas-file-zapper'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2019-05-29'
   s.summary     = 'Delete old and disposable files from Canvas LMS'
   # s.description = '"A simple hello world gem"'
