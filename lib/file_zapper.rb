@@ -204,10 +204,12 @@ class FileZapper
     end
 
     batches.find_each do |sis|
-      sis.delete
-    rescue ActiveRecord::InvalidForeignKey
-      # This import is referenced from an account.
-      next
+      begin
+        sis.delete
+      rescue ActiveRecord::InvalidForeignKey
+        # This import is referenced from an account.
+        next
+      end
     end
   end
 
